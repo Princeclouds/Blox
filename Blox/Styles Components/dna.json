@@ -1,0 +1,383 @@
+{
+    "html": {
+      "lang": "en",
+      "head": {
+        "meta": [
+          { "charset": "UTF-8" },
+          { "name": "viewport", "content": "width=device-width, initial-scale=1.0" }
+        ],
+        "title": "Component Test"
+      },
+      "body": {
+        "div": [
+          {
+            "class": "mainmenu-bg",
+            "id": "mainmenu-bg"
+          },
+          {
+            "id": "mainmenu-wrap",
+            "div": {
+              "nav": {
+                "id": "mainmenu",
+                "class": "mainmenu",
+                "button": {
+                  "id": "mainmenu-close",
+                  "class": "mainmenu-close",
+                  "href": "#",
+                  "i": { "class": "ion-android-close" }
+                },
+                "ul": {
+                  "li": [
+                    {
+                      "class": "menu-item-has-children",
+                      "a": {
+                        "href": "index-detailed.html",
+                        "text": "Home",
+                        "i": { "class": "fa fa-caret-down" }
+                      },
+                      "ul": {
+                        "class": "sub-menu",
+                        "li": [
+                          { "a": { "href": "index-agency.html", "text": "Home - Agency" } },
+                          { "a": { "href": "index-detailed.html", "text": "Home - Detailed" } },
+                          { "a": { "href": "index-banners.html", "text": "Home - Banners" } },
+                          { "a": { "href": "index-multi.html", "text": "Home - Multi" } },
+                          { "a": { "href": "index-booking.html", "text": "Home - Booking" } },
+                          { "a": { "href": "index-map.html", "text": "Home - Full Map" } }
+                        ]
+                      }
+                    },
+                    {
+                      "class": "menu-item-has-children",
+                      "a": {
+                        "href": "catalog-grid.html",
+                        "text": "Properties",
+                        "i": { "class": "fa fa-caret-down" }
+                      },
+                      "ul": {
+                        "class": "sub-menu",
+                        "li": [
+                          { "a": { "href": "catalog-grid.html", "text": "Catalog - Grid Style" } },
+                          { "a": { "href": "catalog-list.html", "text": "Catalog - List Style" } },
+                          { "a": { "href": "property.html", "text": "Single Property - Style 1" } },
+                          { "a": { "href": "property-2.html", "text": "Single Property - Style 2" } }
+                        ]
+                      }
+                    },
+                    {
+                      "class": "menu-item-has-children active",
+                      "a": {
+                        "href": "agents.html",
+                        "text": "Agents",
+                        "i": { "class": "fa fa-caret-down" }
+                      },
+                      "ul": {
+                        "class": "sub-menu",
+                        "li": [
+                          { "a": { "href": "agents.html", "text": "Agents List" } },
+                          { "class": "active", "a": { "href": "agent.html", "text": "Agent Page" } }
+                        ]
+                      }
+                    },
+                    { "a": { "href": "elements.html", "text": "Elements" } },
+                    {
+                      "class": "menu-item-has-children",
+                      "a": {
+                        "href": "blog-grid.html",
+                        "text": "Blog",
+                        "i": { "class": "fa fa-caret-down" }
+                      },
+                      "ul": {
+                        "class": "sub-menu",
+                        "li": [
+                          { "a": { "href": "blog-grid.html", "text": "Grid Style" } },
+                          { "a": { "href": "blog-list.html", "text": "List Style" } },
+                          { "a": { "href": "post.html", "text": "Single Post" } },
+                          { "a": { "href": "post-slider-sidebar-right.html", "text": "Slider Post" } }
+                        ]
+                      }
+                    },
+                    {
+                      "class": "menu-item-has-children",
+                      "a": {
+                        "href": "gallery.html",
+                        "text": "Pages",
+                        "i": { "class": "fa fa-caret-down" }
+                      },
+                      "ul": {
+                        "class": "sub-menu",
+                        "li": [
+                          { "a": { "href": "gallery.html", "text": "Gallery" } },
+                          { "a": { "href": "404.html", "text": "404 Page" } }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "header": {
+              "class": "site-header1-wrap",
+              "div": {
+                "class": "container site-header1",
+                "a": {
+                  "href": "index-detailed.html",
+                  "class": "h-logo",
+                  "img": { "src": "img/logo.png", "alt": "Powerful Real Estate Theme" },
+                  "p": "Powerful Real Estate Theme"
+                },
+                "ul": {
+                  "class": "h-contacts",
+                  "li": [
+                    {
+                      "span": {
+                        "class": "h-contacts-icon",
+                        "img": { "src": "img/h-ico-1.png", "alt": "" }
+                      },
+                      "p": [
+                        { "class": "h-contacts-label", "text": "our address" },
+                        { "a": { "href": "#", "text": "Santa Monica, 11TH Street" } }
+                      ]
+                    },
+                    {
+                      "span": {
+                        "class": "h-contacts-icon",
+                        "img": { "src": "img/h-ico-2.png", "alt": "" }
+                      },
+                      "p": [
+                        { "class": "h-contacts-label", "text": "contact us" },
+                        { "a": { "href": "mailto:support@absolute.com", "text": "support@absolute.com" } }
+                      ]
+                    },
+                    {
+                      "span": {
+                        "class": "h-contacts-icon",
+                        "img": { "src": "img/h-ico-3.png", "alt": "" }
+                      },
+                      "p": [
+                        { "class": "h-contacts-label", "text": "working hours" },
+                        "Mon - Sat : 8 am to 7 pm"
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "div": {
+              "class": "modalform",
+              "form": {
+                "action": "#",
+                "method": "POST",
+                "class": "form-validate",
+                "p": {
+                  "class": "modalform-ttl",
+                  "text": "Contact Us"
+                },
+                "input": [
+                  { "type": "text", "placeholder": "Your name", "data-required": "text", "name": "name" },
+                  { "type": "text", "placeholder": "Your phone", "data-required": "text", "name": "phone" },
+                  { "type": "text", "placeholder": "Your email", "data-required": "text", "data-required-email": "email", "name": "email" }
+                ],
+                "button": {
+                  "class": "btn1",
+                  "type": "submit",
+                  "text": "Send"
+                }
+              }
+            }
+          },
+          {
+            "section": {
+              "class": "site-section2",
+              "div": {
+                "class": "container",
+                "div": [
+                  {
+                    "class": "row",
+                    "div": [
+                      {
+                        "class": "col-md-4",
+                        "div": {
+                          "class": "s2-title",
+                          "h2": "Welcome to Absolute Realty"
+                        }
+                      },
+                      {
+                        "class": "col-md-8",
+                        "div": {
+                          "class": "s2-text",
+                          "p": [
+                            "We provide the best properties for you. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                            "Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor."
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "section": {
+              "class": "site-section2",
+              "div": {
+                "class": "container",
+                "div": [
+                  {
+                    "class": "row",
+                    "div": [
+                      {
+                        "class": "col-md-6",
+                        "div": {
+                          "class": "s2-img",
+                          "img": { "src": "img/img_1.jpg", "alt": "Image 1" }
+                        }
+                      },
+                      {
+                        "class": "col-md-6",
+                        "div": {
+                          "class": "s2-text",
+                          "h3": "Best Properties for You",
+                          "p": [
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum.",
+                            "Vestibulum odio justo, condimentum nec aliquam a, fringilla ac quam. "
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "section": {
+              "class": "site-section2",
+              "div": {
+                "class": "container",
+                "div": [
+                  {
+                    "class": "row",
+                    "div": [
+                      {
+                        "class": "col-md-6",
+                        "div": {
+                          "class": "s2-text",
+                          "h3": "Helping You Find the Best Property",
+                          "p": [
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum.",
+                            "Vestibulum odio justo, condimentum nec aliquam a, fringilla ac quam."
+                          ]
+                        }
+                      },
+                      {
+                        "class": "col-md-6",
+                        "div": {
+                          "class": "s2-img",
+                          "img": { "src": "img/img_2.jpg", "alt": "Image 2" }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "section": {
+              "class": "site-section2",
+              "div": {
+                "class": "container",
+                "div": [
+                  {
+                    "class": "row",
+                    "div": [
+                      {
+                        "class": "col-md-6",
+                        "div": {
+                          "class": "s2-img",
+                          "img": { "src": "img/img_3.jpg", "alt": "Image 3" }
+                        }
+                      },
+                      {
+                        "class": "col-md-6",
+                        "div": {
+                          "class": "s2-text",
+                          "h3": "Find Your Perfect Home",
+                          "p": [
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum.",
+                            "Vestibulum odio justo, condimentum nec aliquam a, fringilla ac quam."
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "footer": {
+              "class": "site-footer",
+              "div": {
+                "class": "container footer-top",
+                "row": {
+                  "col-sm-4": {
+                    "div": {
+                      "class": "widget",
+                      "h4": "About Us",
+                      "p": [
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                        "Nulla ut mauris vel nunc malesuada malesuada vitae non dui.",
+                        "Integer suscipit tincidunt odio a porta."
+                      ]
+                    }
+                  },
+                  "col-sm-4": {
+                    "div": {
+                      "class": "widget",
+                      "h4": "Contact Us",
+                      "p": [
+                        {
+                          "strong": "Address:",
+                          "text": "Santa Monica, 11TH Street"
+                        },
+                        {
+                          "strong": "Email:",
+                          "a": { "href": "mailto:support@absolute.com", "text": "support@absolute.com" }
+                        },
+                        {
+                          "strong": "Phone:",
+                          "text": "+1 234 567 8910"
+                        }
+                      ]
+                    }
+                  },
+                  "col-sm-4": {
+                    "div": {
+                      "class": "widget",
+                      "h4": "Social Media",
+                      "ul": {
+                        "li": [
+                          { "a": { "href": "#", "i": { "class": "fa fa-facebook" } } },
+                          { "a": { "href": "#", "i": { "class": "fa fa-twitter" } } },
+                          { "a": { "href": "#", "i": { "class": "fa fa-linkedin" } } },
+                          { "a": { "href": "#", "i": { "class": "fa fa-google-plus" } } }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+  
